@@ -1950,10 +1950,10 @@
   {
    "id": "d142",
    "category": "AI相关",
-   "status": "有效",
+   "status": "已失效",
    "value_score": 3,
-   "title": "Packet.ai Token Factory：三个模型 API 全免费至 12月16日（须短信验证）",
-   "summary": "美国 GPU 云 Packet.ai（hosted·ai 旗下）的推理 API 免费活动：OpenAI 兼容接口（api.packet.ai/v1），输入输出全 $0，官方未公布 Token 上限。在架模型：DeepSeek-V4.1-Flash-NVFP4（131K 上下文）、MiniMax-M3.1-Flash（131K）、Qwen2.5-1.5B-Instruct（33K），Kimi K3 预告中。免费口径已回官方活动页核实。注意：与 d73 AMD Token Factory 同名不同家，别混淆。",
+   "title": "Packet.ai Token Factory：中国号码被地区限制，领不了（已实测）",
+   "summary": "2026-11-21 已实测：账号可用 packet@自有域名 注册并登录，但手机验证选 +86 提交时页面直接报错「Token Factory isn't available in China — 因出口与合规规则不对中国地区号码提供」，短信根本发不出，验证是建 API Key 的前置门槛，故整条不可用。活动本身真实（三个模型 API 全免费至 2026-12-16），仅对非中国号码可用。",
    "how": "打开 packet.ai/token-factory-free，用邮箱或 Google 注册（免绑卡），完成一次手机短信验证后创建 API Key 调用。",
    "expires": "2026-12-16",
    "expires_date": "2026-12-16",
@@ -1961,7 +1961,7 @@
    "source_url": "https://packet.ai/token-factory-free",
    "found_date": "2026-11-21",
    "last_verified": "2026-11-21",
-   "risk": "每号必须做一次手机短信验证；11月24日（UTC）起未验证的 Key 拒绝调用；验证页默认 +1 区号，+86 中国号码能否通过未核实（原帖评论称需国外号）；官方未公布 Token 上限"
+   "risk": "地区限制：中国（+86）号码被官方以出口与合规规则拒绝，与验证码收不到无关；无国外号码则无法使用。"
   },
   {
    "id": "s1",
