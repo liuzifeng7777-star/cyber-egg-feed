@@ -1710,7 +1710,7 @@
   {
    "id": "d126",
    "category": "AI相关",
-   "status": "有效",
+   "status": "待领",
    "value_score": 4,
    "title": "Nous Portal 免费开放阿里新旗舰 Qwen4-Max 五天（只剩约 2 天）",
    "summary": "Nous Research 11月18日发文，与 Inferact 及 Qwen 团队合作，在 Nous Portal 上免费开放阿里新旗舰 Qwen4-Max 五天（100 万上下文、原生视觉）；Portal 模型清单已列 qwen/qwen4-max:free、标价 FREE。只剩约 2 天：按 11月18日晚起算窗口约至 11月23日，但官方未公布硬截止日与 Token 上限/限速，此日期为推算、以官方页面为准。免费期结束恢复原价（输入 $1.50/输出 $4.50 每百万 Token）。",
@@ -1726,7 +1726,7 @@
   {
    "id": "d127",
    "category": "AI相关",
-   "status": "有效",
+   "status": "待领",
    "value_score": 4,
    "title": "Telnyx：新用户 $25 AI 额度（Pretrial 账号，免绑卡）",
    "summary": "Telnyx 邮箱注册 Pretrial 账号即得 $25 AI 额度（约 ¥167），免绑卡免充值、注册自动到账，可调 Kimi K3、GLM-5.3、DeepSeek V4.1 Flash 等 7 款模型，另附 1 个美国本地号码；官方帮助中心已核实。额度有使用期限，以账户内显示的剩余天数为准。",
@@ -1742,7 +1742,7 @@
   {
    "id": "d128",
    "category": "AI相关",
-   "status": "有效",
+   "status": "已失效",
    "value_score": 4,
    "title": "You.com：新账号 $100 API 额度（免信用卡，60 天有效）",
    "summary": "You.com 新账号注册得 $10 API 额度，完成账号验证后再得 $90，合计 $100，无需信用卡；免费额度自发放起 60 天有效；另有免注册 MCP 每日 100 次 Web Search。官方定价页已核实。",
@@ -1753,7 +1753,7 @@
    "source_url": "https://you.com/pricing",
    "found_date": "2026-11-21",
    "last_verified": "2026-11-21",
-   "risk": "需海外账号；免费额度 60 天有效，过期作废"
+   "risk": "需海外账号；免费额度 60 天有效，过期作废。2026-11-21 结案：当日已领满 $100 并核实到账，但随后建 API Key 时账号被平台以「滥用或自动化」封禁，用户决定不申诉、放弃此号，$100 额度一并作废，勿再注册重试。"
   },
   {
    "id": "d129",
@@ -1946,6 +1946,22 @@
    "found_date": "2026-11-21",
    "last_verified": "2026-11-21",
    "risk": "免费机场通病：可能记录访问、随时跑路、速度不稳，敏感账号勿用免费机场；本条未回官网核实，以官网为准"
+  },
+  {
+   "id": "d142",
+   "category": "AI相关",
+   "status": "有效",
+   "value_score": 3,
+   "title": "Packet.ai Token Factory：三个模型 API 全免费至 12月16日（须短信验证）",
+   "summary": "美国 GPU 云 Packet.ai（hosted·ai 旗下）的推理 API 免费活动：OpenAI 兼容接口（api.packet.ai/v1），输入输出全 $0，官方未公布 Token 上限。在架模型：DeepSeek-V4.1-Flash-NVFP4（131K 上下文）、MiniMax-M3.1-Flash（131K）、Qwen2.5-1.5B-Instruct（33K），Kimi K3 预告中。免费口径已回官方活动页核实。注意：与 d73 AMD Token Factory 同名不同家，别混淆。",
+   "how": "打开 packet.ai/token-factory-free，用邮箱或 Google 注册（免绑卡），完成一次手机短信验证后创建 API Key 调用。",
+   "expires": "2026-12-16",
+   "expires_date": "2026-12-16",
+   "source_name": "Packet.ai 官方活动页（线索来自 Freebie Radar 收录的 NodeLoc 帖）",
+   "source_url": "https://packet.ai/token-factory-free",
+   "found_date": "2026-11-21",
+   "last_verified": "2026-11-21",
+   "risk": "每号必须做一次手机短信验证；11月24日（UTC）起未验证的 Key 拒绝调用；验证页默认 +1 区号，+86 中国号码能否通过未核实（原帖评论称需国外号）；官方未公布 Token 上限"
   },
   {
    "id": "s1",
